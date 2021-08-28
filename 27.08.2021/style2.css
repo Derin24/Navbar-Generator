@@ -1,0 +1,334 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    color: rgb(110, 197, 188);
+}
+
+.header h1 {
+    font-size: 33px;
+}
+
+.tryityourself a {
+    background-color: rgb(110, 197, 188);
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding:  13 20;
+    text-decoration: none;
+    display: inline;
+    outline: none;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 20vh;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    box-shadow: 5px 3px 10px rgb(46, 146, 136);
+}
+
+.tryityourself a:hover {
+    background-color: rgb(71, 161, 152);
+    box-shadow: 5px 3px 10px rgb(71, 173, 163);
+}
+
+.navbarhome {
+    background-color: #333;
+    padding: 4 33;
+}
+
+.navbarhome a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: rgb(110, 197, 188);
+    display: inline-block;
+}
+
+.navbarhome a:hover {
+    background-color: rgb(71, 161, 152);
+    color: white;
+}
+
+
+.navbarhome a.right {
+    float: right;
+}
+
+.navbarhome a.active {
+    background-color: rgb(52, 133, 125);
+}
+
+
+/* 1 */
+
+.navbar1 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar1 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: red;
+    display: inline-block;
+}
+
+.navbar1 a:hover {
+    background-color: rgb(175, 5, 5);
+    color: whitesmoke;
+}
+
+.navbar1 a.active {
+    background-color: rgb(175, 5, 5);
+    cursor: not-allowed;
+}
+
+.navbar1 a.right {
+    float: right;
+}
+
+/* 2 */
+
+.navbar2 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar2 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: rgb(0, 184, 0);
+    display: inline-block;
+}
+
+.navbar2 a:hover {
+    background-color: rgb(0, 128, 0);
+    color: whitesmoke;
+}
+
+.navbar2 a.active {
+    background-color: rgb(0, 128, 0);
+    cursor: not-allowed;
+}
+
+.navbar2 a.right {
+    float: right;
+}
+
+/* 3 */
+
+.navbar3 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar3 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: blue;
+    display: inline-block;
+}
+
+.navbar3 a:hover {
+    background-color: rgb(0, 0, 167);
+    color: whitesmoke;
+}
+
+.navbar3 a.active {
+    background-color: rgb(0, 0, 167);
+    cursor: not-allowed;
+}
+
+.navbar3 a.right {
+    float: right;
+}
+
+/* 4 */
+
+.navbar4 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar4 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: orangered;
+    display: inline-block;
+}
+
+.navbar4 a:hover {
+    background-color: rgb(170, 45, 0);
+    color: whitesmoke;
+}
+
+.navbar4 a.active {
+    background-color: rgb(170, 45, 0);
+    cursor: not-allowed;
+}
+
+.navbar4 a.right {
+    float: right;
+}
+
+/* 5 */
+
+.navbar5 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar5 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: rgb(132, 0, 255);
+    display: inline-block;
+}
+
+.navbar5 a:hover {
+    background-color: rgb(83, 0, 161);
+    color: whitesmoke;
+}
+
+.navbar5 a.active {
+    background-color: rgb(83, 0, 161);
+    cursor: not-allowed;
+}
+
+.navbar5 a.right {
+    float: right;
+}
+
+/* 6 */
+
+.navbar6 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar6 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: deepskyblue;
+    display: inline-block;
+}
+
+.navbar6 a:hover {
+    background-color: rgb(0, 110, 146);
+    color: whitesmoke;
+}
+
+.navbar6 a.active {
+    background-color: rgb(0, 110, 146);
+    cursor: not-allowed;
+}
+
+.navbar6 a.right {
+    float: right;
+}
+
+/* 7 */
+
+.navbar7 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar7 a {
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: gold;
+    display: inline-block;
+}
+
+.navbar7 a:hover {
+    background-color: rgb(196, 166, 0);
+    color: black;
+}
+
+.navbar7 a.active {
+    background-color: rgb(196, 166, 0);
+    cursor: not-allowed;
+}
+
+.navbar7 a.right {
+    float: right;
+}
+
+/* 8 */
+
+.navbar8 {
+    background-color: #333;
+    padding: 4 33;
+    margin: 30px;
+}
+
+.navbar8 a {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: #FF1493;
+    display: inline-block;
+}
+
+.navbar8 a:hover {
+    background-color: #b30f66;
+    color: whitesmoke;
+}
+
+.navbar8 a.active {
+    background-color: #b30f66;
+    cursor: not-allowed;
+}
+
+.navbar8 a.right {
+    float: right;
+}
+
+.codes {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    display: inline;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 85vh;
+}

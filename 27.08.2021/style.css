@@ -1,0 +1,151 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    color: rgb(110, 197, 188);
+}
+
+.header h1 {
+    font-size: 33px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 4 33;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 7 20;
+    background-color: rgb(110, 197, 188);
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: rgb(71, 161, 152);
+    color: whitesmoke;
+}
+
+.navbar a.active {
+    background-color: rgb(52, 133, 125);
+    cursor: not-allowed;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+code {
+    background-color: black;
+    color: rgb(0, 255, 0);
+    display: flex;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 85vh;
+}
+
+.parallax {
+    background: url(http://127.0.0.1:5500/page1.PNG)
+    repeat fixed 100%;
+    background-size: cover;
+    color: rgb(6, 131, 118);
+    opacity: 40%;
+}
+
+.parallax-inner {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.parallax-2 {
+    background: url(http://127.0.0.1:5500/page2.PNG)
+    repeat fixed 100%;
+    background-size: cover;
+    color: rgb(6, 131, 118);
+    opacity: 40%;
+}
+
+.parallax-inner-2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.parallax-3 {
+    background: url(http://127.0.0.1:5500/page3.PNG)
+    repeat fixed 100%;
+    background-size: cover;
+    color: rgb(6, 131, 118);
+    opacity: 40%;
+    margin-left: 30px;
+}
+
+.parallax-inner-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.parallax-4 {
+    background: url(http://127.0.0.1:5500/page4.PNG)
+    repeat fixed 100%;
+    background-size: cover;
+    color: rgb(6, 131, 118);
+    opacity: 40%;
+    margin-left: 30px;
+}
+
+.parallax-inner-4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h3 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 160px;
+    text-align: center;
+}
+
+.tryityourself a {
+    background-color: rgb(110, 197, 188);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding:  13 20;
+    text-decoration: none;
+    display: inline;
+    outline: none;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 11.4vh;
+    margin-bottom: 60px;
+    margin-top: 70px;
+    box-shadow: 5px 3px 10px rgb(46, 146, 136);
+}
+
+.tryityourself a:hover {
+    background-color: rgb(71, 161, 152);
+    box-shadow: 5px 3px 10px rgb(71, 173, 163);
+}
